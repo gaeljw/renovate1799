@@ -4,7 +4,7 @@ lazy val root = (project in file("."))
 
 name := "renovate1799"
 
-scalaVersion := "2.13.8"
+scalaVersion := "2.13.10"
 
 scalacOptions += s"-target:$jdkVersion"
 
