@@ -8,7 +8,7 @@ scalaVersion := "2.13.8"
 
 scalacOptions += s"-target:$jdkVersion"
 
-val kafkaVersion = "2.8.1"
+val kafkaVersion = "3.3.1"
 
 libraryDependencies ++= Seq(
   "org.apache.kafka" % "kafka-clients" % kafkaVersion,
